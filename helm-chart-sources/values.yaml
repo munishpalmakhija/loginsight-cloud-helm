@@ -1,0 +1,11 @@
+# This is a YAML-formatted file.
+image:
+  name: "docker.io/vmware/log-intelligence-fluentd"
+  tag: "latest" 
+  pullPolicy: IfNotPresent
+vrlic:
+  scheme: "https"
+  host: "data.mgmt.cloud.vmware.com"
+  port: "443"
+  sslVerify: "true"
+  apiKey: "apiKey"

@@ -1,0 +1,4 @@
+apiVersion: v2
+description: A Helm chart for logging to vRLI Cloud
+name: vlic-fluentd
+version: 0.1.0
