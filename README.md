@@ -54,15 +54,15 @@ You need to have following pre-requisties
 
 ## Install Chart by setting values during run time.  
 
-| helm install test-vrlic loginsight-cloud/loginsight-cloud-helm --set vrlic.apiKey=SETME --set tag.environment=DEMO |
-| ------------- |
+```
+helm install test-vrlic loginsight-cloud/loginsight-cloud-helm --set vrlic.apiKey=SETME --set tag.environment=DEMO
+```
 
 ## Verify Kubernetes Pods  
-
-| kubectl get pods -A | grep test-vrlic |
-| ------------- |
-
+```
+kubectl get pods -A | grep test-vrlic
+```
 ## Verify Helm Release 
-
-| helm list |
-| ------------- |
+```
+helm list
+```
