@@ -13,43 +13,42 @@ You need to have following pre-requisties
 # Installing the Chart - Procedure 1 
 
 ## Add Chart Repo 
-
-| helm repo add loginsight-cloud https://munishpalmakhija.github.io/loginsight-cloud-helm/ |
-| ------------- |
+```
+helm repo add loginsight-cloud https://munishpalmakhija.github.io/loginsight-cloud-helm/
+```
 
 
 ## Get Values file in your working directory 
-
-| helm show values loginsight-cloud/loginsight-cloud-helm  > values.yaml |
-| ------------- |
+```
+helm show values loginsight-cloud/loginsight-cloud-helm  > values.yaml
+```
 
 ## Update Values file with API Token and other relevant details.  
-
-| cat values.yaml |
-| ------------- |
+```
+cat values.yaml
+```
 
 ## Install Chart.  
-
-| helm install test-vrlic loginsight-cloud/loginsight-cloud-helm -f values.yaml |
-| ------------- |
+```
+helm install test-vrlic loginsight-cloud/loginsight-cloud-helm -f values.yaml
+```
 
 ## Verify Kubernetes Pods  
-
-| kubectl get pods -A | grep test-vrlic |
-| ------------- |
+```
+kubectl get pods -A | grep test-vrlic
+```
 
 ## Verify Helm Release 
-
-| helm list |
-| ------------- |
-
+```
+helm list
+```
 
 # Installing the Chart - Procedure 2
 
 ## Add Chart Repo 
-
-| helm repo add loginsight-cloud https://munishpalmakhija.github.io/loginsight-cloud-helm/ |
-| ------------- |
+```
+helm repo add loginsight-cloud https://munishpalmakhija.github.io/loginsight-cloud-helm/
+```
 
 
 ## Install Chart by setting values during run time.  
