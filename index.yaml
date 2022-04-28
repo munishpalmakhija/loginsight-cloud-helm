@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   loginsight-cloud-helm:
   - apiVersion: v2
-    created: "2022-04-27T01:11:29.483352702Z"
+    created: "2022-04-28T03:14:14.436561574Z"
     description: A Helm chart to push Kubernetes Logs to vRealize Log Insight Cloud.
-    digest: b675f30da7d65814a4f337dc55d86df9683ce832a1b7940a7f176363dff3fc0f
+    digest: afbf76423c8ec07dc17e5761b126e11c4bda1562b963643b0d38be99b92bea5f
     name: loginsight-cloud-helm
     urls:
     - https://munishpalmakhija.github.io/loginsight-cloud-helm/loginsight-cloud-helm-0.1.1.tgz
     version: 0.1.1
-generated: "2022-04-27T01:11:29.482970795Z"
+generated: "2022-04-28T03:14:14.436084809Z"
